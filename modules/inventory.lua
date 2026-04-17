@@ -2,7 +2,6 @@ local playerState
 
 local function initPlayerState()
     playerState = LocalPlayer.state
-    print('[Sling] playerState initialized')
 end
 
 AddEventHandler('playerActivated', initPlayerState)
@@ -42,12 +41,8 @@ local function getHotbarItems(inventory)
 end
 
 local function broadcastWeapons(inventory)
-    if not playerState then
-        print('[Sling] broadcastWeapons: playerState is nil!')
-        return
-    end
+    if not playerState then return end
     local items = getHotbarItems(inventory)
-    print('[Sling] broadcasting weapons_carry count=' .. tostring(#items))
     playerState:set('weapons_carry', items, true)
 end
 
