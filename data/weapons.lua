@@ -20,6 +20,7 @@ WeaponsConfig = {
     weapon_hominglauncher = { slot = 4 },
     weapon_compactlauncher = { slot = 4 },
     weapon_emplauncher = { slot = 4 },
+    weapon_combatpdw = { slot = 4 },
 
     -- [BOK/PAS - slot 2] Pistole, nože
     weapon_pistol = { slot = 2 },
@@ -45,9 +46,6 @@ WeaponsConfig = {
     weapon_smg = { slot = 3 },
     weapon_smg_mk2 = { slot = 3 },
     weapon_assaultsmg = { slot = 3 },
-    weapon_combatpdw = { slot = 3 },
-    weapon_minismg = { slot = 3 },
-    weapon_machinepistol = { slot = 3 },
 
     -- [BOK sideways - slot 2] Melee
     weapon_bat = { slot = 2 },
@@ -73,4 +71,6 @@ WeaponsConfig = {
     weapon_marksmanrifle = { slot = 5 },
     weapon_marksmanrifle_mk2 = { slot = 5 },
     weapon_precisionrifle = { slot = 5 },
+    weapon_machinepistol = { slot = 5 },
+    weapon_minismg = { slot = 5 },
 }
