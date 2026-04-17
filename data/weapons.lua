@@ -1,5 +1,5 @@
 WeaponsConfig = {
-    -- [ÚTOČNÉ PUŠKY / RIFLES] - Slot 1
+    -- [RAMENO/PŘEDNÍ - slot 4] Rifles, heavy
     weapon_assaultrifle = { slot = 4 },
     weapon_carbinerifle = { slot = 4 },
     weapon_carbinerifle_mk2 = { slot = 4 },
@@ -12,16 +12,51 @@ WeaponsConfig = {
     weapon_militaryrifle = { slot = 4 },
     weapon_heavyrifle = { slot = 4 },
     weapon_tacticalrifle = { slot = 4 },
+    weapon_rpg = { slot = 4 },
+    weapon_grenadelauncher = { slot = 4 },
+    weapon_minigun = { slot = 4 },
+    weapon_firework = { slot = 4 },
+    weapon_railgun = { slot = 4 },
+    weapon_hominglauncher = { slot = 4 },
+    weapon_compactlauncher = { slot = 4 },
+    weapon_emplauncher = { slot = 4 },
 
-    -- [SAMOPALY / SMG & PDW] - Slot 1 (nebo 3 dle tvé volby)
-    weapon_smg = { slot = 4 },
-    weapon_smg_mk2 = { slot = 4 },
-    weapon_assaultsmg = { slot = 4 },
-    weapon_combatpdw = { slot = 4 },
-    weapon_minismg = { slot = 4 },
-    weapon_machinepistol = { slot = 4 },
+    -- [BOK/PAS - slot 2] Pistole, nože
+    weapon_pistol = { slot = 2 },
+    weapon_pistol_mk2 = { slot = 2 },
+    weapon_combatpistol = { slot = 2 },
+    weapon_appistol = { slot = 2 },
+    weapon_pistol50 = { slot = 2 },
+    weapon_snspistol = { slot = 2 },
+    weapon_snspistol_mk2 = { slot = 2 },
+    weapon_heavypistol = { slot = 2 },
+    weapon_vintagepistol = { slot = 2 },
+    weapon_marksmanpistol = { slot = 2 },
+    weapon_revolver = { slot = 2 },
+    weapon_revolver_mk2 = { slot = 2 },
+    weapon_doubleaction = { slot = 2 },
+    weapon_ceramicpistol = { slot = 2 },
+    weapon_navyrevolver = { slot = 2 },
+    weapon_knife = { slot = 2 },
+    weapon_dagger = { slot = 2 },
+    weapon_switchblade = { slot = 2 },
 
-    -- [BROKOVNICE / SHOTGUNS] - Slot 1
+    -- [ZÁDA VLEVO - slot 3] SMG, PDW
+    weapon_smg = { slot = 3 },
+    weapon_smg_mk2 = { slot = 3 },
+    weapon_assaultsmg = { slot = 3 },
+    weapon_combatpdw = { slot = 3 },
+    weapon_minismg = { slot = 3 },
+    weapon_machinepistol = { slot = 3 },
+
+    -- [ZÁDA STŘED - slot 4] Melee
+    weapon_bat = { slot = 4 },
+    weapon_golfclub = { slot = 4 },
+    weapon_crowbar = { slot = 4 },
+    weapon_poolcue = { slot = 4 },
+    weapon_machete = { slot = 4 },
+
+    -- [ZÁDA VPRAVO - slot 5] Shotguns, snipers
     weapon_pumpshotgun = { slot = 5 },
     weapon_pumpshotgun_mk2 = { slot = 5 },
     weapon_sawnoffshotgun = { slot = 5 },
@@ -32,28 +67,10 @@ WeaponsConfig = {
     weapon_dbshotgun = { slot = 5 },
     weapon_autoshotgun = { slot = 5 },
     weapon_combatshotgun = { slot = 5 },
-
-    -- [ODSTŘELOVAČKY / SNIPERS] - Slot 1
     weapon_sniperrifle = { slot = 5 },
     weapon_heavysniper = { slot = 5 },
     weapon_heavysniper_mk2 = { slot = 5 },
     weapon_marksmanrifle = { slot = 5 },
     weapon_marksmanrifle_mk2 = { slot = 5 },
     weapon_precisionrifle = { slot = 5 },
-
-    -- [ZBRANĚ NA BLÍZKO / MELEE] - Slot 2
-    weapon_bat = { slot = 2 },
-    weapon_golfclub = { slot = 2 },
-    weapon_crowbar = { slot = 2 },
-    weapon_poolcue = { slot = 2 },
-
-    -- [TĚŽKÉ ZBRANĚ / HEAVY] - Slot 1
-    weapon_rpg = { slot = 5 },
-    weapon_grenadelauncher = { slot = 5 },
-    weapon_minigun = { slot = 5 },
-    weapon_firework = { slot = 5 },
-    weapon_railgun = { slot = 5 },
-    weapon_hominglauncher = { slot = 5 },
-    weapon_compactlauncher = { slot = 5 },
-    weapon_emplauncher = { slot = 5 },
 }

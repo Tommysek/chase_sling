@@ -81,17 +81,16 @@ local function createAllObjects(pedHandle, addItems, currentTable, amount)
 end
 
 AddStateBagChangeHandler('weapons_carry', nil, function(bagName, keyName, value, _, replicated)
-    if replicated then
-        return
-    end
-
+    print('[Sling] weapons_carry changed bagName=' .. tostring(bagName) .. ' replicated=' .. tostring(replicated))
     local serverId, pedHandle = Utils.getEntityFromStateBag(bagName, keyName)
+    print('[Sling] serverId=' .. tostring(serverId) .. ' pedHandle=' .. tostring(pedHandle))
 
     if serverId and not value then
+        print('[Sling] removing player ' .. tostring(serverId))
         return removePlayer(serverId)
     end
 
-    if pedHandle > 0 then
+    if pedHandle and pedHandle > 0 then
         local currentTable = Players[serverId] or {}
         local amount = #currentTable
 
@@ -102,10 +101,15 @@ AddStateBagChangeHandler('weapons_carry', nil, function(bagName, keyName, value,
         end
 
         if value and table.type(value) ~= 'empty' then
+            print('[Sling] creating objects count=' .. tostring(#value))
             createAllObjects(pedHandle, value, currentTable, amount)
+        else
+            print('[Sling] value empty or nil, nothing to attach')
         end
 
         Players[serverId] = currentTable
+    else
+        print('[Sling] pedHandle invalid, skipping')
     end
 end)
 
