@@ -49,12 +49,12 @@ WeaponsConfig = {
     weapon_minismg = { slot = 3 },
     weapon_machinepistol = { slot = 3 },
 
-    -- [ZÁDA STŘED - slot 4] Melee
-    weapon_bat = { slot = 4 },
-    weapon_golfclub = { slot = 4 },
-    weapon_crowbar = { slot = 4 },
-    weapon_poolcue = { slot = 4 },
-    weapon_machete = { slot = 4 },
+    -- [BOK sideways - slot 2] Melee
+    weapon_bat = { slot = 2 },
+    weapon_golfclub = { slot = 2 },
+    weapon_crowbar = { slot = 2 },
+    weapon_poolcue = { slot = 2 },
+    weapon_machete = { slot = 2 },
 
     -- [ZÁDA VPRAVO - slot 5] Shotguns, snipers
     weapon_pumpshotgun = { slot = 5 },
